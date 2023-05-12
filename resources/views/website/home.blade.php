@@ -1,3 +1,5 @@
+@section('title',  'Home')
+
 @extends('website.layouts.website')
 
 @section('content')
