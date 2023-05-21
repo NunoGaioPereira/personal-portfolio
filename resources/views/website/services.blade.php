@@ -2,6 +2,166 @@
 
 @extends('website.layouts.website')
 
+@section('styles')
+<style type="text/css">
+    @import url('../fonts/fonts.css');
+
+    * {
+        font-family: 'Poppins', 'Zona Pro', 'Muli', sans-serif;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .service-link:hover img {
+        transform: translateX(10px);
+    }
+
+    .btn-expand {
+        transition: width 0.3s ease-in-out;
+    }
+
+    .btn-expand:hover {
+        width: 120px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1.5rem;
+    }
+
+    .btn-service {
+        position: absolute;
+        //  float: none;
+        // top: 50%;
+        // left: 50%;
+        text-align: center;
+    }
+
+    .cta {
+        width: 40px;
+        height: 40px;
+        //border-radius: 50px;
+        color: #fff;
+        transition: width 0.7s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .cta:hover {
+        width: 180px;
+        transition: width 0.7s;
+    }
+
+    .cta .number,
+    .cta .btn-arrow {
+        opacity: 1;
+        transition: opacity 0.5s
+    }
+
+    .cta:hover .number,
+    .cta:hover .btn-arrow {
+        opacity: 0;
+        transition: opacity 0.5s
+    }
+
+    .cta .button-text {
+        opacity: 0;
+        transition: opacity .5s;
+        position: absolute;
+        width: 100%;
+        left: 0;
+    }
+
+    .cta:hover .button-text {
+        opacity: 1;
+        transition: opacity 0.5s
+    }
+
+    .number {
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    /*@media screen and (min-width: 768px) {*/
+    @media screen and (min-width: 600px) {
+        .grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media screen and (min-width: 992px) {
+        .grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    .technologies {
+        display: grid;
+        margin-top: 30px;
+        margin-bottom: 80px;
+        padding-left: 0;
+        grid-auto-columns: 1fr;
+        grid-column-gap: 16px;
+        grid-row-gap: 16px;
+        -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    }
+
+    @media screen and (max-width: 767px) {
+        .technologies {
+            -ms-grid-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .technologies__item {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding-left: 0;
+        background-image: none;
+        color: #1e2228;
+        margin-bottom: 16px;
+    }
+
+    .skill {
+        color: #000;
+        transition: transform 0.25s ease-in-out;
+        user-select: none;
+    }
+
+    .skill:hover {
+        -webkit-transform: translate(0, -3px);
+        -ms-transform: translate(0, -3px);
+        transform: translate(0, -3px);
+    }
+
+    .technologies__icon {
+        width: 24px;
+        margin-right: 10px;
+    }
+
+    .faq-icon:after {
+        content: '+';
+        display: block;
+        font-style: semibold;
+        font-size: 26px;
+    }
+
+    .faq-icon.selected:after {
+        content: '-'
+    }
+</style>
+@endsection
+
 @section('content')
 <section class="max-w-7xl mx-auto px-8 pt-48 pb-16" id="about">
     <div class="pb-36">

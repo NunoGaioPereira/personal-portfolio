@@ -43,7 +43,7 @@
 
             </div>
             <h1 class="hero-title relative text-4xl md:text-5xl pt-20 text-gray-800 font-semibold"><span class="hero-squares">Design.</span> Develop. <span class="hero-underline">Innovate.</span></h1>
-            <h2 class="mt-6 text-gray-500 text-lg md:text-xl mx-auto max-w-lg">I am Nuno, a web designer and developer based in Portugal. My passion is to create fully fledged websites and web apps.</h2>
+            <h2 class="mt-6 text-gray-500 text-lg md:text-xl mx-auto max-w-lg">@lang('website/home.hero.subtitle')</h2>
             <div class="mt-12">
                 <a href="#about" class="inline-block bg-gray-900 hover:bg-gray-800 transition duration-300 px-12 py-4 text-white">read more</a>
             </div>

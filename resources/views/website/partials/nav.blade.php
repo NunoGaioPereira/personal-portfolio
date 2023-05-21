@@ -1,4 +1,4 @@
-<nav style="box-shadow: 0px 0px 10px 0px #ddd;" class="bg-white z-40 fixed w-full" :clas="{'bg-red-200 border-b border-gray-100' : !navScrolled }" @scroll.window="navScrolled = (window.pageYOffset > 50) ? false : true">
+<nav style="box-shadow: 0px 0px 10px 0px #ddd;" class="bg-white z-40 fixed w-full top-0" :class="{'bg-red-200 border-b border-gray-100' : !navScrolled }" @scroll.window="navScrolled = (window.pageYOffset > 50) ? false : true">
     <div class="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
         <div class="relative flex items-center justify-between h-20">
             <div class="flex items-center">
@@ -10,11 +10,11 @@
                 </div>
                 <div class="ml-10 hidden sm:inline-block">
                     <ul class="space-x-8">
-                        <li class="inline-block font-semibold text-gray-300 transition duration-300 hover:text.gray-600 <% if (pageTitle === 'Home') { %> text-gray-900 <% } %> "><a href="/">Home</a></li>
-                        <li class="inline-block font-semibold text-gray-300 transition duration-300 hover:text-gray-600 <% if (pageTitle === 'Services') { %> text-gray-900 <% } %> "><a href="/services">Services</a></li>
-                        <li class="inline-block font-semibold text-gray-300 transition duration-300 hover:text-gray-600 <% if (pageTitle === 'About') { %> text-gray-900 <% } %> "><a href="/about">About</a></li>
-                        <li class="inline-block font-semibold text-gray-300 transition duration-300 hover:text-gray-600 <% if (pageTitle === 'Portfolio') { %> text-gray-900 <% } %> "><a href="/portfolio">Work</a></li>
-                        <li class="inline-block font-semibold text-gray-300 transition duration-300 hover:text-gray-600 <% if (pageTitle === 'Contact') { %> text-gray-900 <% } %> "><a href="/contact">Contact</a></li>
+                        <li class="inline-block font-semibold text-gray-300 transition duration-300 hover:text.gray-600 @if(Request::is('/')){{ 'text-gray-900' }}@endif"><a href="/">Home</a></li>
+                        <li class="inline-block font-semibold text-gray-300 transition duration-300 hover:text-gray-600 @if(Request::is('services')){{ 'text-gray-900' }}@endif"><a href="/services">Services</a></li>
+                        <li class="inline-block font-semibold text-gray-300 transition duration-300 hover:text-gray-600 @if(Request::is('about')){{ 'text-gray-900' }}@endif"><a href="/about">About</a></li>
+                        <li class="inline-block font-semibold text-gray-300 transition duration-300 hover:text-gray-600 @if(Request::is('portfolio')){{ 'text-gray-900' }}@endif"><a href="/portfolio">Work</a></li>
+                        <li class="inline-block font-semibold text-gray-300 transition duration-300 hover:text-gray-600 @if(Request::is('contact')){{ 'text-gray-900' }}@endif"><a href="/contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="flex items-center sm:hidden">
                     <!-- Mobile menu button-->
-                    <button @click="mobileMenu = true" type="button" class="inline-flex items-center justify-center rounded-md text-gray-800 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                    <button @click="mobileMenu=true" type="button" class="inline-flex items-center justify-center rounded-md text-gray-800 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
                         <svg class="block h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />

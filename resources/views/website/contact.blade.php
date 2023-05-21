@@ -2,6 +2,28 @@
 
 @extends('website.layouts.website')
 
+@section('styles')
+<style>
+    .no-show {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0.2s, opacity 0.4s ease-in-out, margin-left 0.4s ease-in-out;
+    }
+
+    .banner-container {
+        webkit-box-shadow: 0px 5px 18px 0px rgba(50, 50, 50, 0.44);
+        -moz-box-shadow: 0px 5px 18px 0px rgba(50, 50, 50, 0.44);
+        box-shadow: 0px 5px 18px 0px rgba(50, 50, 50, 0.4);
+    }
+
+    .show {
+        visibility: visible;
+        opacity: 1;
+        margin-left: 180px !important;
+    }
+</style>
+@endsection
+
 @section('content')
 <section class="max-w-7xl mx-auto px-8 pt-48 pb-36">
     <div class="flex flex-col sm:flex-row justify-between w-full">
@@ -18,7 +40,7 @@
                         </g>
                     </g>
                 </svg>
-                <a href="mailto:nunogaiopereira@gmail.com" class="ml-4 -mt-1 font-semibold">nunogaiopereira@gmail.com</a>
+                <a href="mailto:nunogaiopereira@gmail.com" class="ml-3 -mt-2 font-semibold">nunogaiopereira@gmail.com</a>
             </div>
 
             <h2 class="font-semibold text-3xl mt-20">Follow me</h2>
@@ -78,27 +100,56 @@
             </ul>
         </div>
         <div class="w-full sm:w-1/2 mt-12 sm:mt-0">
-            <form class="contact-form">
+            <form class="contact-form" action="{{ route('contact.send') }}" method="POST">
+                @csrf
                 <div>
                     <label class="block font-semibold text-lg">Name</label>
-                    <input type="text" name="name" id="name" placeholder="Your Name" class="w-full block bg-gray-100 border-b-2 border-gray-100 mt-2 py-3 px-3">
+                    <input type="text" name="name" id="name" value="{{ old('name') }}" placeholder="Your Name" class="w-full block bg-gray-100 border-b-2 border-gray-100 mt-2 py-3 px-3">
                 </div>
                 <div class="mt-4">
                     <label class="block font-semibold text-lg">Email</label>
-                    <input type="email" name="email" id="email" placeholder="example@email.com" class="w-full block bg-gray-100 border-b-2 border-gray-100 mt-2 py-3 px-3">
+                    <input type="email" name="email" id="email" value="{{ old('email') }}" placeholder="example@email.com" class="w-full block bg-gray-100 border-b-2 border-gray-100 mt-2 py-3 px-3">
                 </div>
                 <div class="mt-4">
                     <label class="block font-semibold text-lg">Message</label>
-                    <textarea id="message" name="message" class="w-full block bg-gray-100 border-b-2 border-gray-100 mt-2 py-3 px-3" rows="6" placeholder="Your Message"></textarea>
+                    <textarea id="message" name="message" class="w-full block bg-gray-100 border-b-2 border-gray-100 mt-2 py-3 px-3" rows="6" placeholder="Your Message">{{ old('message') }}</textarea>
                 </div>
+
                 <div class="mt-8">
-                    <button type="submit" class="cursor-pointer inline-block bg-mainblue hover:bg-gray-800 transition duration-300 px-12 py-3 text-white" value="send">send</button>
+                    <button class="cursor-pointer inline-block bg-mainblue hover:bg-gray-800 transition duration-300 px-12 py-3 text-white">send</button>
                 </div>
             </form>
         </div>
     </div>
+
+    @if (session('alert'))
+    <div x-init="bannerSetup()">
+        <div id="banner" class="my-8 no-show banner-container -left-36 shadow-4xl fixed bottom-8">
+            <div class="@if($alert_type == 'success') {{ 'bg-green-400' }}
+                        @elseif($alert_type == 'info') {{ 'bg-blue-400' }}
+                        @elseif($alert_type == 'warning') {{ 'bg-yellow-500' }}
+                        @elseif($alert_type == 'error') {{ 'bg-red-500' }}
+                        @endif text-white p-4" role="alert">
+                <p>{{ session('alert') }}</p>
+            </div>
+        </div>
+    </div>
+    @endif
 </section>
 
 <div id="success" class="no-show shadow-4xl fixed bottom-8 -left-36"></div>
 <div id="failure" class="no-show shadow-4xl fixed bottom-8 -left-36"></div>
+@endsection
+
+@section('scripts')
+<script>
+    function bannerSetup() {
+        let banner = document.getElementById('banner');
+        banner.classList.add('show');
+
+        setTimeout(function() {
+            banner.classList.remove("show");
+        }, 5000);
+    }
+</script>
 @endsection

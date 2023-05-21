@@ -1,6 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WebsiteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,9 +17,32 @@ use Illuminate\Support\Facades\Route;
 
 
 // Website
+
+
+// Route::get('language/{locale}', function ($locale) {
+//     app()->setLocale($locale);
+//     session()->put('locale', $locale);
+//     return redirect()->back();
+// });
+// Route::get('/{locale?}', function ($locale = 'en') {
+//     if (! in_array($locale, ['en', 'pt'])) {
+//         $locale = 'en';
+//     }
+//     App::setLocale($locale);
+
+//     return view('website.home');
+// });
+
+// Route::prefix('{lang?}')->middleware('locale')->group(function() {
+//     Route::get('/', function () {
+//         return view('website.home');
+//     });
+// });
+
 Route::get('/', function () {
     return view('website.home');
 });
+
 Route::get('/about', function () {
     return view('website.about');
 });
@@ -30,4 +55,6 @@ Route::get('/portfolio', function () {
 Route::get('/contact', function () {
     return view('website.contact');
 });
+
+Route::post('contact', [WebsiteController::class, 'send'])->name('contact.send');
 
