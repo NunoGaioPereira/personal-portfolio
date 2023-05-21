@@ -55,6 +55,9 @@ Route::get('/portfolio', function () {
 Route::get('/contact', function () {
     return view('website.contact');
 });
+Route::get('/policies', function () {
+    return view('website.policies');
+});
 
 Route::post('contact', [WebsiteController::class, 'send'])->name('contact.send');
 
