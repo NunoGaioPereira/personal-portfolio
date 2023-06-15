@@ -87,9 +87,9 @@
         @yield('styles')
     </head>
     <body class="antialiased">
-        <div class="app">
-        @extends('website.partials.nav')
-        @extends('website.partials.mobile_nav')
+        <div class="app" id="app" x-data="{ navScrolled: false, mobileMenu: false }" @scroll.window="navScrolled = (window.pageYOffset > 50) ? false : true">
+        @include('website.partials.nav')
+        @include('website.partials.mobile_nav')
         <!-- <div class="pt-36">
             <div x-data="{ count: 0 }">
                 <button x-on:click="count++">Increment</button>
@@ -100,15 +100,38 @@
             </div>    
         </div> -->
         @yield('content')
-        @extends('website.partials.footer')
+        @include('website.partials.footer')
         </div>
 
         @yield('scripts')
 
         <!-- <script type="module">
             // import Alpine from './modules/alpine';
-            console.log(window.Alpine === undefined)
+            console.log(window.Alpine)
             // Alpine.start();
         </script> -->
+        <script>
+            // console.log(document.getElementById('app').__x.$data.navScrolled);
+
+            // window.addEventListener('scroll', function() {
+            //     console.log(window.Alpine)
+            //     // if (window.pageYOffset > 50) {
+            //     //     navScrolled = true;
+            //     // } else {
+            //     //     navScrolled = false;
+            //     // }
+            // });
+            // console.log(navScrolled);
+            // navScrolled = (window.pageYOffset > 50) ? false : true
+
+            // function bannerSetup() {
+            //     let banner = document.getElementById('banner');
+            //     banner.classList.add('show');
+
+            //     setTimeout(function() {
+            //         banner.classList.remove("show");
+            //     }, 5000);
+            // }
+        </script>
     </body>
 </html>

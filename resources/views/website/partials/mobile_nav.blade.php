@@ -19,13 +19,13 @@
 					<a href="/" class="block font-semibold py-4 text-gray-800 text-3xl">Home</a>
 				</li>
 				<li>
+					<a href="/portfolio" class="block font-semibold py-4 text-gray-800 text-3xl">Portfolio</a>
+				</li>
+				<li>
 					<a href="/services" class="block font-semibold py-4 text-gray-800 text-3xl">Services</a>
 				</li>
 				<li>
 					<a href="/about" class="block font-semibold py-4 text-gray-800 text-3xl">About</a>
-				</li>
-				<li>
-					<a href="/portfolio" class="block font-semibold py-4 text-gray-800 text-3xl">Portfolio</a>
 				</li>
 				<li>
 					<a href="/contact" class="block font-semibold py-4 text-gray-800 text-3xl">Contact</a>

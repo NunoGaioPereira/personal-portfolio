@@ -3,7 +3,7 @@
 @extends('website.layouts.website')
 
 @section('content')
-<div class="app" x-data="{ navScrolled: false, mobileMenu: false }">
+<div class="app">
 
     
 
