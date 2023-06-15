@@ -40,7 +40,7 @@
                         </g>
                     </g>
                 </svg>
-                <a href="mailto:nunogaiopereira@gmail.com" class="ml-3 -mt-2 font-semibold">nunogaiopereira@gmail.com</a>
+                <a href="mailto:nunogaiopereira@gmail.com" class="ml-3 -mt-1 font-semibold">nunogaiopereira@gmail.com</a>
             </div>
 
             <h2 class="font-semibold text-3xl mt-20">Follow me</h2>
@@ -122,15 +122,32 @@
         </div>
     </div>
 
+    <?php
+    if (isset($alert_type))
+        dd($alert_type);
+    ?>
+
     @if (session('alert'))
     <div x-init="bannerSetup()">
         <div id="banner" class="my-8 no-show banner-container -left-36 shadow-4xl fixed bottom-8">
-            <div class="@if($alert_type == 'success') {{ 'bg-green-400' }}
-                        @elseif($alert_type == 'info') {{ 'bg-blue-400' }}
-                        @elseif($alert_type == 'warning') {{ 'bg-yellow-500' }}
-                        @elseif($alert_type == 'error') {{ 'bg-red-500' }}
+            <div class="@if(session('alert_type') == 'success') {{ 'bg-green-400' }}
+                        @elseif(session('alert_type') == 'info') {{ 'bg-blue-400' }}
+                        @elseif(session('alert_type') == 'warning') {{ 'bg-yellow-500' }}
+                        @elseif(session('alert_type') == 'error') {{ 'bg-red-500' }}
                         @endif text-white p-4" role="alert">
                 <p>{{ session('alert') }}</p>
+            </div>
+        </div>
+    </div>
+    @endif
+
+    @if ($errors->any())
+    <div x-init="bannerSetup()">
+        <div id="banner" class="my-8 no-show banner-container -left-36 shadow-4xl fixed bottom-8">
+            <div class="bg-red-500 text-white p-4" role="alert">
+                @foreach ($errors->all() as $e)
+                    <p>{{ $e }}</p>
+                @endforeach
             </div>
         </div>
     </div>
