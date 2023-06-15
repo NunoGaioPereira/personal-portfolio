@@ -3,7 +3,7 @@
 @extends('website.layouts.website')
 
 @section('styles')
-<style>
+<!-- <style>
     .grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -31,7 +31,7 @@
             grid-template-columns: repeat(3, 1fr);
         }
     }
-</style>
+</style> -->
 @endsection
 
 @section('content')
