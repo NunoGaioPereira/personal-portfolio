@@ -1,4 +1,4 @@
-<nav x-bind:style="!navScrolled && { 'box-shadow': '0px 0px 10px 0px #ddd' }" class="bg-white z-40 fixed w-full top-0"> <!-- :class="{'bg-red-200' : !navScrolled }" -->
+<nav x-init="navScrolled = false" id="nav" x-bind:style="!navScrolled && { 'box-shadow': '0px 0px 10px 0px #ddd' }" class="bg-white z-40 fixed w-full top-0"> <!-- :class="{'bg-red-200' : !navScrolled }" -->
     <div class="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
         <div class="relative flex items-center justify-between h-20">
             <div class="flex items-center">

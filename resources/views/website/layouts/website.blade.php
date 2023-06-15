@@ -87,7 +87,7 @@
         @yield('styles')
     </head>
     <body class="antialiased">
-        <div class="app" id="app" x-data="{ navScrolled: false, mobileMenu: false }" @scroll.window="navScrolled = (window.pageYOffset > 50) ? false : true">
+        <div class="app" id="app" x-data="{ navScrolled: false, mobileMenu: false }" x-init="navScrolled = false" @scroll.window="navScrolled = (window.pageYOffset > 100) ? false : true">
         @include('website.partials.nav')
         @include('website.partials.mobile_nav')
         <!-- <div class="pt-36">
@@ -111,6 +111,11 @@
             // Alpine.start();
         </script> -->
         <script>
+            window.onload = () => {
+                let nav = document.getElementById('nav');
+                if (nav)
+                    nav.style.boxShadow = null;
+            }
             // console.log(document.getElementById('app').__x.$data.navScrolled);
 
             // window.addEventListener('scroll', function() {
