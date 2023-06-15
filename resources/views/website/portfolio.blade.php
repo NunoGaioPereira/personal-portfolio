@@ -221,7 +221,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="work web">
+                <!-- <div class="work web">
                     <div class="col-span-1 py-6">
                         <div class="relative group">
                             <a href="/projects/instagram-laravel-clone">
@@ -235,7 +235,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- <div class="col-span-1 py-6">
 				       		<div class="relative group">
 					            <a href="/projects/personal-branding">

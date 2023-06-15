@@ -58,6 +58,9 @@ Route::get('/contact', function () {
 Route::get('/policies', function () {
     return view('website.policies');
 });
+Route::get('/projects/{project}', function ($project) {
+    return view('website.projects.' .  $project);
+});
 
 Route::post('contact', [WebsiteController::class, 'send'])->name('contact.send');
 
