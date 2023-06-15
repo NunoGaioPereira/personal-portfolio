@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="w-1/3 mt-4">
-                <img src="./img/tmp_about1.jpg">
+                <img src="./img/354711976_585061360404205_1516632196303957065_n.jpg">
             </div>
         </div>
 
