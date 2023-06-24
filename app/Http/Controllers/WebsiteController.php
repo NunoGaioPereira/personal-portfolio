@@ -7,6 +7,12 @@ use Illuminate\Support\Facades\Mail;
 
 class WebsiteController extends Controller
 {
+    private const BLOCKED_EMAILS = [
+        'leonor.calaca@gmail.com',
+        'jocelynecousineau@videotron.ca',
+        'girtalos@yandex.com'
+    ];
+
     public function send(Request $request)
     {
         $email = $request->email;
