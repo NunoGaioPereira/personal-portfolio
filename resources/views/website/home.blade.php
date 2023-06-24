@@ -65,12 +65,12 @@
         <div class="text-center">
             <h3 class="text-center uppercase text-sm font-semibold" style="color: #aaa">Grateful the collaboration with leading brands such as</h3>
             <ul class="mx-auto mt-4 flex items-center justify-center flex-wrap" style="color: #aaa">
-                <li class="mx-12 my-4 logo"><a href="https://www.worten.pt/servicos-worten-resolve" target="_blank">{!! file_get_contents('img/logos/worten.svg') !!}</a></li>
-                <li class="mx-12 my-4 logo"><a href="https://www.iswari.com/pt" target="_blank">{!! file_get_contents('img/logos/iswari.svg') !!}</a></li>
-                <li class="mx-12 my-4 logo"><a href="https://www.zaask.pt/" target="_blank">{!! file_get_contents('img/logos/zaask.svg') !!}</a></li>
-                <li class="mx-12 my-4 logo"><a href="" target="_blank">{!! file_get_contents('img/logos/altice.svg') !!}</a></li>
-                <li class="mx-12 my-4 logo"><a href="https://apps.apple.com/pt/app/paladar/id1645135680" target="_blank">{!! file_get_contents('img/logos/paladar.svg') !!}</a></li>
-                <li class="mx-12 my-4 logo"><a href="" target="_blank">{!! file_get_contents('img/logos/oney.svg') !!}</a></li>
+                <li class="mx-6 my-4 logo"><a href="https://www.worten.pt/servicos-worten-resolve" target="_blank">{!! file_get_contents('img/logos/worten.svg') !!}</a></li>
+                <li class="mx-6 my-4 logo"><a href="https://www.iswari.com/pt" target="_blank">{!! file_get_contents('img/logos/iswari.svg') !!}</a></li>
+                <li class="mx-6 my-4 logo"><a href="https://www.zaask.pt/" target="_blank">{!! file_get_contents('img/logos/zaask.svg') !!}</a></li>
+                <li class="mx-6 my-4 logo"><a href="" target="_blank">{!! file_get_contents('img/logos/altice.svg') !!}</a></li>
+                <li class="mx-6 my-4 logo"><a href="https://apps.apple.com/pt/app/paladar/id1645135680" target="_blank">{!! file_get_contents('img/logos/paladar.svg') !!}</a></li>
+                <li class="mx-6 my-4 logo"><a href="" target="_blank">{!! file_get_contents('img/logos/oney.svg') !!}</a></li>
             </ul>
         </div>
     </div>
