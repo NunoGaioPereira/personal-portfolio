@@ -79,7 +79,7 @@
                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                 <tr align="center">
                                     <td style="color: #aaa; font-size: 14px; font-weight: 500;" width="100%">
-                                        Copyright © 2022-2023, Nuno Pereira<br />
+                                        Copyright © {{ now()->year }}, Nuno Pereira<br />
                                     </td>
                                 </tr>
                             </table>
