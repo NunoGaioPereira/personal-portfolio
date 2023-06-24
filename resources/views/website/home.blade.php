@@ -1,11 +1,11 @@
-@section('title',  'Home')
+@section('title', 'Home')
 
 @extends('website.layouts.website')
 
 @section('content')
 <div class="app">
 
-    
+
 
     <section class="max-w-7xl mx-auto pxtt-4 sm:pxtt-6 px-8 min-h-screen flex items-center">
         <div class="text-center mx-auto">
@@ -37,6 +37,18 @@
                     background-size: 100% 9px;
                     background-position: 0 80%;
                 }
+
+                li.logo a svg {
+                    transition: color 0.2s ease-in-out;
+                }
+
+                li.logo a:hover svg {
+                    color: #666;
+                }
+
+                li.logo svg {
+                    /* height: 30px; */
+                }
             </style>
             <div class="relative">
                 <img src="./img/dots.png" class="w-24 absolute" style="margin-left: -30px; margin-top: 40px; padding-left: 20px;">
@@ -49,6 +61,19 @@
             </div>
         </div>
     </section>
+    <div class="bg-gray-100 w-full -mt-24 px-24 py-10">
+        <div class="text-center">
+            <h3 class="text-center uppercase text-sm font-semibold" style="color: #aaa">Grateful the collaboration with leading brands such as</h3>
+            <ul class="mx-auto mt-4 flex items-center justify-center flex-wrap" style="color: #aaa">
+                <li class="mx-12 my-4 logo"><a href="https://www.worten.pt/servicos-worten-resolve" target="_blank">{!! file_get_contents('img/logos/worten.svg') !!}</a></li>
+                <li class="mx-12 my-4 logo"><a href="https://www.iswari.com/pt" target="_blank">{!! file_get_contents('img/logos/iswari.svg') !!}</a></li>
+                <li class="mx-12 my-4 logo"><a href="https://www.zaask.pt/" target="_blank">{!! file_get_contents('img/logos/zaask.svg') !!}</a></li>
+                <li class="mx-12 my-4 logo"><a href="" target="_blank">{!! file_get_contents('img/logos/altice.svg') !!}</a></li>
+                <li class="mx-12 my-4 logo"><a href="https://apps.apple.com/pt/app/paladar/id1645135680" target="_blank">{!! file_get_contents('img/logos/paladar.svg') !!}</a></li>
+                <li class="mx-12 my-4 logo"><a href="" target="_blank">{!! file_get_contents('img/logos/oney.svg') !!}</a></li>
+            </ul>
+        </div>
+    </div>
 
     <section class="max-w-7xl mx-auto px-8 pt-36" id="about">
         <div class="flex flex-col sm:flex-row items-center justify-between w-full">
@@ -146,7 +171,7 @@
             <h2 class="font-semibold text-4xl">Projects</h2>
             <div class="py-8">
                 <div class="grid grid-cols-2">
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/impact-uk">
                                 <img src="./img/impactuk_square.png" alt="" class="w-full relative" style="z-index: 1">
@@ -160,7 +185,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/zenstate">
                                 <img src="./img/zenstate1.png" alt="" class="w-full relative" style="z-index: 1">
@@ -173,7 +198,22 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-span-1 py-6">
+                    <div class="work web design">
+                        <div class="col-span-1">
+                            <div class="relative group">
+                                <a href="/projects/awaven">
+                                    <img src="./img/awaven_square.png" alt="" class="w-full relative" style="z-index: 1">
+                                    <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-gray-200 bg-opacity-60 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1; background-color: #aaaaaabb;">
+                                        <div>
+                                            <p style="text-shadow: 1px 1px #aaa;">Awaven</p>
+                                            <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Design and Development</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/ligca">
                                 <img src="./img/ligca_square.png" alt="" class="w-full relative" style="z-index: 1">
@@ -189,7 +229,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-span-1 py-6">
+                    <!-- <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/andre-gaio-pereira-dashboard">
                                 <img src="./img/agpdashboard_mockup_lightblue_square.png" alt="" class="w-full relative" style="z-index: 1">
@@ -199,13 +239,10 @@
                                         <p style="text-shadow: 1px 1px #aaa;" class="text-sm">PHP and MySQL Development</p>
                                     </div>
                                 </div>
-                                <!-- <div class="absolute bottom-0 left-0 text-xl px-4 py-2 bg-gradient-to-t to-transparent from-gray-300 opacity-0 group-hover:opacity-100 transition w-full text-white font-semibold" style="z-index: 1">
-					                	<p style="text-shadow: 1px 1px #999;">Meditation App</p>
-					                </div> -->
                             </a>
                         </div>
-                    </div>
-                    <div class="col-span-1 py-6">
+                    </div> -->
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/andre-gaio-pereira">
                                 <img src="./img/agp1.png" alt="" class="w-full relative" style="z-index: 1">
@@ -218,7 +255,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/sanifauna">
                                 <img src="./img/sanifauna_square1.png" alt="" class="w-full relative" style="z-index: 1">
@@ -231,7 +268,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/breathe">
                                 <img src="./img/breathe1.png" alt="" class="w-full relative" style="z-index: 1">
@@ -244,7 +281,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/ukmr">
                                 <img src="./img/ukmr_square.png" alt="" class="w-full relative" style="z-index: 1">
@@ -258,7 +295,7 @@
                         </div>
                     </div>
                     <div class="work web">
-                        <div class="col-span-1 py-6">
+                        <div class="col-span-1">
                             <div class="relative group">
                                 <a href="/projects/quarteto-tejo">
                                     <img src="./img/quartetotejo_square.png" alt="" class="w-full relative" style="z-index: 1">

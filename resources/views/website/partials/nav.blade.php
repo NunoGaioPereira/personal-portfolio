@@ -40,7 +40,7 @@
                     </div> -->
                     <div class="inline-block">
                         <a href="/contact" class="inline-block">
-                            <div class="h-10 w-10 bg-gray-900 hover:bg-blue-400 transition duration-300 text-white flex items-center justify-center">
+                            <div class="h-10 w-10 bg-gray-900 hover:bg-mainblue transition duration-300 text-white flex items-center justify-center">
                                 <svg class="h-5 w-5" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
                                     <g>
                                         <g>

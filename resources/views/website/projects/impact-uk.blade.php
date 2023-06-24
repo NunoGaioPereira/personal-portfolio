@@ -47,7 +47,7 @@
 				<span class="bg-gray-300 mt-12 h-8 sm:h-14 py-4 block mx-auto" style="width: 2px;"></span>
 				<p class="mt-12">Your next project could be on this page! Click below to get in touch and we will bring your idea to life.</p>
 				<div class="mt-8">
-					<a href="/contact" class="inline-block bg-blue-400 hover:bg-gray-800 transition duration-300 px-10 py-3 text-white">Let's talk!</a>
+					<a href="/contact" class="inline-block bg-mainblue hover:bg-gray-800 transition duration-300 px-10 py-3 text-white">Let's talk!</a>
 				</div>
 			</div>
 		</section>

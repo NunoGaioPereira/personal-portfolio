@@ -24,7 +24,7 @@
 					</ul> -->
             <div class="grid grid-cols-2 pt-8">
                 <div class="work web design branding">
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/impact-uk">
                                 <img src="./img/impactuk_square.png" alt="" class="w-full relative" style="z-index: 1">
@@ -40,7 +40,37 @@
                     </div>
                 </div>
                 <div class="work web design">
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
+                        <div class="relative group">
+                            <a href="/projects/awaven">
+                                <img src="./img/awaven_square.png" alt="" class="w-full relative" style="z-index: 1">
+                                <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-gray-200 bg-opacity-60 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1; background-color: #aaaaaabb;">
+                                    <div>
+                                        <p style="text-shadow: 1px 1px #aaa;">Awaven</p>
+                                        <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Design and Development</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work web">
+                    <div class="col-span-1">
+                        <div class="relative group">
+                            <a href="/projects/shokked_air">
+                                <img src="./img/shokked_air_square.png" alt="" class="w-full relative" style="z-index: 1">
+                                <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-gray-200 bg-opacity-60 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1; background-color: #aaaaaabb;">
+                                    <div>
+                                        <p style="text-shadow: 1px 1px #aaa;">Shokked Air</p>
+                                        <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Web Design and Development</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work web design">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/zenstate">
                                 <img src="./img/zenstate1.png" alt="" class="w-full relative" style="z-index: 1">
@@ -55,7 +85,7 @@
                     </div>
                 </div>
                 <div class="work web design">
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/ligca">
                                 <img src="./img/ligca_square.png" alt="" class="w-full relative" style="z-index: 1">
@@ -73,7 +103,7 @@
                     </div>
                 </div>
                 <div class="work web design branding">
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/andre-gaio-pereira">
                                 <img src="./img/agp1.png" alt="" class="w-full relative" style="z-index: 1">
@@ -88,7 +118,7 @@
                     </div>
                 </div>
                 <div class="work web design">
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/breathe">
                                 <img src="./img/breathe1.png" alt="" class="w-full relative" style="z-index: 1">
@@ -103,7 +133,7 @@
                     </div>
                 </div>
                 <div class="work web">
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/quarteto-tejo">
                                 <img src="./img/quartetotejo_square.png" alt="" class="w-full relative" style="z-index: 1">
@@ -118,7 +148,7 @@
                     </div>
                 </div>
                 <div class="work web">
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/visavis-paris">
                                 <img src="./img/visavis_square.png" alt="" class="w-full relative" style="z-index: 1">
@@ -133,7 +163,7 @@
                     </div>
                 </div>
                 <div class="work web">
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/sanifauna">
                                 <img src="./img/sanifauna_square1.png" alt="" class="w-full relative" style="z-index: 1">
@@ -148,7 +178,7 @@
                     </div>
                 </div>
                 <div class="work web">
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/ukmr">
                                 <img src="./img/ukmr_square.png" alt="" class="w-full relative" style="z-index: 1">
@@ -163,7 +193,7 @@
                     </div>
                 </div>
                 <div class="work web">
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/andre-gaio-pereira-dashboard">
                                 <!-- <img src="./img/agpdashboard_featured.png" alt="" class="w-full relative" style="z-index: 1"> -->
@@ -178,7 +208,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-span-1 py-6">
+                <!-- <div class="col-span-1">
 				       		<div class="relative group">
 					            <a href="">
 					                <img src="./img/personal_branding1.png" alt="" class="w-full relative" style="z-index: 1">
@@ -192,7 +222,7 @@
 					        </div>
 					    </div> -->
                 <div class="work design">
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/old-man-and-the-sea">
                                 <img src="./img/hemingway.png" alt="" class="w-full relative" style="z-index: 1">
@@ -207,7 +237,7 @@
                     </div>
                 </div>
                 <div class="work branding design">
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/personal-branding">
                                 <img src="./img/card_600.png" alt="" class="w-full relative" style="z-index: 1">
@@ -222,7 +252,7 @@
                     </div>
                 </div>
                 <!-- <div class="work web">
-                    <div class="col-span-1 py-6">
+                    <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/instagram-laravel-clone">
                                 <img src="./img/instaclone_square.png" alt="" class="w-full relative" style="z-index: 1">
@@ -236,7 +266,7 @@
                         </div>
                     </div>
                 </div> -->
-                <!-- <div class="col-span-1 py-6">
+                <!-- <div class="col-span-1">
 				       		<div class="relative group">
 					            <a href="/projects/personal-branding">
 					                <img src="./img/personal_branding1.png" alt="" class="w-full relative" style="z-index: 1">

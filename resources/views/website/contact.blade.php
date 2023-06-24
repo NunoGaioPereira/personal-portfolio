@@ -131,7 +131,7 @@
     <div x-init="bannerSetup()">
         <div id="banner" class="my-8 no-show banner-container -left-36 shadow-4xl fixed bottom-8">
             <div class="@if(session('alert_type') == 'success') {{ 'bg-green-400' }}
-                        @elseif(session('alert_type') == 'info') {{ 'bg-blue-400' }}
+                        @elseif(session('alert_type') == 'info') {{ 'bg-mainblue' }}
                         @elseif(session('alert_type') == 'warning') {{ 'bg-yellow-500' }}
                         @elseif(session('alert_type') == 'error') {{ 'bg-red-500' }}
                         @endif text-white p-4" role="alert">
