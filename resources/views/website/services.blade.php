@@ -219,7 +219,7 @@
             <div class="relative">
                 <p style="z-index: -1; color: #f2f2f2; font-size: 180px; line-height: 1;" class="font-semibold absolute -top-14">01</p>
                 <h2 class="font-bold text-4xl">Design</h2>
-                <p class="mt-4 text-gray-500">From web and mobile applications to brand identity</p>
+                <p class="mt-4 text-gray-500">From web and mobile applications to brand identity, I will help you create a design that reflects your goals and intention.</p>
                 <div class="mt-8">
                     <a href="/portfolio" class="inline-block transition duration-300 font-semibold service-link">
                         <span>see design projects</span>
@@ -257,7 +257,6 @@
 						</li> -->
                 <li class="flex pl-0 mb-4">
                     <div class="skill flex items-center">
-                        <!-- <svg class="w-6 mr-3 p-1 text-gray-400" fill="currentColor" enable-background="new 0 0 467.765 467.765" height="512" viewBox="0 0 467.765 467.765" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m175.412 87.706h58.471v29.235h58.471v-87.706h-292.354v87.706h58.471v-29.235h58.471v292.353h-58.471v58.471h175.383v-58.471h-58.442z"/><path d="m233.882 175.412v87.706h58.471v-29.235h29.235v146.176h-29.235v58.471h116.941v-58.471h-29.235v-146.177h29.235v29.235h58.471v-87.706h-233.883z"/></svg> -->
                         <img src="./img/skills/pencil.svg" loading="lazy" alt="" class="w-6 mr-3">
                         <div class="text-gray-800 font-medium">Graphic Design</div>
                     </div>
