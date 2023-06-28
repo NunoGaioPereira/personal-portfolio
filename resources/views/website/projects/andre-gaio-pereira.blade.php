@@ -4,7 +4,7 @@
 
 @section('content')
 <section>
-    <div class="min-h-screen w-full flex items-center justify-center" style="background: url('../img/agp_screen.png') no-repeat; background-size: cover; background-position: center">
+    <div class="min-h-screen w-full flex items-center justify-center" style="background: url('../img/agp_banner.png') no-repeat; background-size: cover; background-position: center">
         <div class="bg-white sm:max-w-3xl w-xl px-8 sm:px-16 py-12 sm:py-16 mt-36 bg-opacity-90 mx-auto text-center z-10">
             <div>
                 <p class="uppercase font-semibold text-sm mb-2">Web Design and Development</p>
@@ -32,13 +32,17 @@
         <p class="text-gray-400 font-medium text-xl">Web Design and Development</p>
         <p class="mt-4">André Gaio Pereira is a young and proliferate portuguese violinist. The website is a personal portfolio that showcases André's' imense talent and passion for music as well for other arts.</p>
 
-        <div class="mt-8">
+        <!-- <div class="mt-8">
             <a href="https://www.andregaiopereira.com" target="_blank" class="inline-block text-sm hover:bg-gray-800 border-2 border-gray-800 transition duration-300 px-8 py-3 text-gray-800 hover:text-white">Visit website</a>
-        </div>
+        </div> -->
 
+        <img src="../img/agp_landing_page.png" class="w-full shadow-xl sm:w-3/4 mt-8 mx-auto">
+
+        
+        <br><br>
         <p class="mt-4">The portfolio website was designed from scratch and developed using HTML, CSS Javascript and jQuery.</p>
-
-        <img src="../img/agp1.png" class="w-full sm:w-3/4 mt-8 mx-auto">
+        <p class="mt-4">The website was composed by multiple pages where one can read more information about the musician.</p>
+        <img src="../img/agp_biography.png" class="w-full shadow-xl sm:w-3/4 mt-8 mx-auto">
 
         <br><br>
         <p class="mt-4">One year later, I developed a custom Dashboard with a CMS for André to manage his concerts and public agenda. <a href="/projects/andre-gaio-pereira-dashboard">Click here</a> to find more about this project.</p>

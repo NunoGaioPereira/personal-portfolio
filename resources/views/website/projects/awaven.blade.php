@@ -62,7 +62,7 @@
 
         <img src="../img/awaven_website.png" class="w-full shadow-xl sm:w-3/4 mt-8 mx-auto">
 
-        <p class="mt-8">The first step in defining Awaven as a brand, was to develop its brandin identity</p>
+        <p class="mt-8">The first step in defining Awaven as a brand, was to develop its visual identity.</p>
         <img src="../img/awaven_square.png" class="w-full max-w-md shadow-xl sm:w-3/4 mt-8 mx-auto">
         <p class="mt-4"></p>
 
