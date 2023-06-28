@@ -1,10 +1,10 @@
-@section('title', '')
+@section('title', 'Quarteto Tejo')
 
 @extends('website.layouts.website')
 
 @section('content')
 <section class="" id="about">
-    <div class="min-h-screen w-full flex items-center justify-center" style="background: url('../img/quarteto_tejo2.png') no-repeat; background-size: cover; background-position: center">
+    <div class="min-h-screen w-full flex items-center justify-center" style="background: url('../img/quarteto_tejo_banner.jpg') no-repeat; background-size: cover; background-position: center">
         <div class="bg-white sm:max-w-3xl w-xl px-8 sm:px-16 py-12 sm:py-16 mt-36 bg-opacity-90 mx-auto text-center z-10">
             <div>
                 <p class="uppercase font-semibold text-sm mb-2">WIX Consultancy</p>
@@ -14,16 +14,6 @@
             </div>
         </div>
     </div>
-    <!-- <div class="flex justify-center">
-				<div class="bg-white sm:max-w-3xl w-xl px-8 sm:px-28 py-16 sm:py-36 mx-auto text-center absolute -mt-24 sm:-mt-64 z-10">
-					<div>
-						<p class="uppercase font-semibold text-sm mb-2">book cover design</p>
-						<h2 class="font-bold text-xl sm:text-4xl pb-4">The Old Man and the Sea</h2>
-						<span class="bg-gray-300 h-8 sm:h-14 py-4 block mx-auto" style="width: 2px;"></span>
-						<p class="text-sm text-gray-700 font-semibold pt-4">Outubro 2018</p>
-					</div>
-				</div>
-			</div> -->
 </section>
 
 <section class="max-w-5xl mx-auto px-8 pb-36 pt-16" id="about">
@@ -32,9 +22,9 @@
         <p class="text-gray-400 font-medium text-xl">WIX Consultancy</p>
         <p class="mt-4">Tejo Quartet is a classical music quartet composed of talented portuguese musicians with international curriculae.</p>
 
-        <div class="mt-8">
+        <!-- <div class="mt-8">
             <a href="https://www.quartetotejo.com/" target="_blank" class="inline-block text-sm hover:bg-gray-800 border-2 border-gray-800 transition duration-300 px-8 py-3 text-gray-800 hover:text-white">Visit website</a>
-        </div>
+        </div> -->
 
         <p class="mt-4">The website has been developed in Wix by Tomás Soares and Beatriz Raimundo, two of the quartet's members. Throughout the process I have provided the quartet with technical support and help in implementation, as well as design and layout consultancy.</p>
 
