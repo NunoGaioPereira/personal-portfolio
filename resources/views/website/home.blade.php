@@ -213,22 +213,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-span-1">
-                        <div class="relative group">
-                            <a href="/projects/ligca">
-                                <img src="./img/ligca_square.png" alt="" class="w-full relative" style="z-index: 1">
-                                <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-gray-400 bg-opacity-60 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1">
-                                    <div>
-                                        <p style="text-shadow: 1px 1px #aaa;">Children's Art Education Charity</p>
-                                        <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Wordpress Development and Design</p>
-                                    </div>
-                                </div>
-                                <!-- <div class="absolute bottom-0 left-0 text-xl px-4 py-2 bg-gradient-to-t to-transparent from-gray-300 opacity-0 group-hover:opacity-100 transition w-full text-white font-semibold" style="z-index: 1">
-					                	<p style="text-shadow: 1px 1px #999;">Meditation App</p>
-					                </div> -->
-                            </a>
-                        </div>
-                    </div>
                     <!-- <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/andre-gaio-pereira-dashboard">
@@ -250,6 +234,19 @@
                                     <div>
                                         <p style="text-shadow: 1px 1px #aaa;">Violinist Portfolio</p>
                                         <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Branding and Web Development</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-span-1">
+                        <div class="relative group">
+                            <a href="/projects/impact-uk_branding">
+                                <img src="./img/impact_uk_square.png" alt="" class="w-full relative" style="z-index: 1">
+                                <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-opacity-60 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1; background-color: #fa6f1abb;">
+                                    <div>
+                                        <p style="text-shadow: 1px 1px #aaa;">Impact UK</p>
+                                        <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Visual Identity</p>
                                     </div>
                                 </div>
                             </a>
