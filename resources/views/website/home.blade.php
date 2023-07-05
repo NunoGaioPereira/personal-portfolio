@@ -57,11 +57,11 @@
             <h1 class="hero-title relative text-4xl md:text-5xl pt-20 text-gray-800 font-semibold"><span class="hero-squares">Design.</span> Develop. <span class="hero-underline">Innovate.</span></h1>
             <h2 class="mt-6 text-gray-500 text-lg md:text-xl mx-auto max-w-lg">@lang('website/home.hero.subtitle')</h2>
             <div class="mt-12">
-                <a href="#about" class="inline-block bg-gray-900 hover:bg-gray-800 transition duration-300 px-12 py-4 text-white">read more</a>
+                <a href="#brands" class="inline-block bg-gray-900 hover:bg-gray-800 transition duration-300 px-12 py-4 text-white">read more</a>
             </div>
         </div>
     </section>
-    <div class="bg-gray-100 w-full -mt-24 px-24 py-10">
+    <div class="bg-gray-100 w-full -mt-24 px-24 py-10" id="brands">
         <div class="text-center">
             <h3 class="text-center uppercase text-sm font-semibold" style="color: #aaa">Grateful the collaboration with leading brands such as</h3>
             <ul class="mx-auto mt-4 flex items-center justify-center flex-wrap" style="color: #aaa">
@@ -81,7 +81,7 @@
                 <p class="font-semibold text-xl">who am I <span style="height: 3px;" class="inline-block mb-1 ml-2 w-7 bg-black"></span></p>
                 <h2 class="font-semibold text-4xl">Nuno Gaio Pereira<span class="bg-mainblue w-2 h-2 inline-block ml-1"></span></h2>
                 <p class="">I'm Nuno, a <!--n independent--> Designer and Full-Stack Web Developer based in Lisbon.
-                    My goal is to help you and your business create an online impact through crafting a web solution that fits your vision. I focus on building bespoke websites and applications built with expertise and passion.</p>
+                    My goal is to help you and your business create an online impact by crafting a unique visual identity and web solution that fits your vision. I focus on building bespoke brands, websites and applications built with expertise and passion.</p>
                 <div class="mt-8">
                     <a href="#services" class="inline-block bg-mainblue hover:bg-gray-800 transition duration-300 px-8 py-3 text-sm text-white">what I offer</a>
                 </div>
@@ -198,7 +198,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="work web design">
+                    <div class="work branding design">
                         <div class="col-span-1">
                             <div class="relative group">
                                 <a href="/projects/awaven">
@@ -260,6 +260,19 @@
                                     <div>
                                         <p style="text-shadow: 1px 1px #aaa;">Sanifauna</p>
                                         <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Wordpress Development and Branding</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-span-1">
+                        <div class="relative group">
+                            <a href="/projects/t-rok">
+                                <img src="./img/trok_square.png" alt="" class="w-full relative" style="z-index: 1">
+                                <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-gray-400 bg-opacity-70 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1">
+                                    <div>
+                                        <p style="text-shadow: 1px 1px #aaa;">T-Rok</p>
+                                        <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Logo Design</p>
                                     </div>
                                 </div>
                             </a>

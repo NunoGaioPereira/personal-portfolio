@@ -39,7 +39,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="work web design">
+                <div class="work branding design">
                     <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/awaven">
@@ -92,6 +92,19 @@
                                 <div>
                                     <p style="text-shadow: 1px 1px #aaa;">Impact UK</p>
                                     <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Visual Identity</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <div class="relative group">
+                        <a href="/projects/t-rok">
+                            <img src="./img/trok_square.png" alt="" class="w-full relative" style="z-index: 1">
+                            <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-gray-400 bg-opacity-70 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1">
+                                <div>
+                                    <p style="text-shadow: 1px 1px #aaa;">T-Rok</p>
+                                    <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Logo Design</p>
                                 </div>
                             </div>
                         </a>
