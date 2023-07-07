@@ -4,7 +4,7 @@
 
 @section('content')
 <section>
-    <div class="min-h-screen w-full flex items-center justify-center" style="background: url('../img/awaven_website.png') no-repeat; background-size: cover; background-position: center">
+    <div class="min-h-screen w-full flex items-center justify-center" style="background: url('../img/awaven_waves.png') no-repeat; background-size: cover; background-position: center">
         <div class="bg-white sm:max-w-3xl w-xl px-8 sm:px-16 py-12 sm:py-16 mt-36 bg-opacity-90 mx-auto text-center z-10">
             <div>
                 <p class="uppercase font-semibold text-sm mb-2">Branding and Web App Development</p>
@@ -52,19 +52,21 @@
     <div>
         <h2 class="font-semibold text-3xl">Awaven</h2>
         <p class="text-gray-400 font-medium text-xl">Personal Development - Branding and App Development</p>
-        <p class="mt-4"></p>
+        <p class="mt-4">Awaven is a portuguese personal development company with the mission of delivering high-level personal development to young people..</p>
 
         <div class="mt-8">
             <a href="https://www.awaven.net/" target="_blank" class="inline-block text-sm hover:bg-gray-800 border-2 border-gray-800 transition duration-300 px-8 py-3 text-gray-800 hover:text-white">Visit website</a>
         </div>
 
         <p class="mt-8"></p>
+        <img src="../img/awaven_1.png" class="w-full sm:w-3/4 mt-8 mx-auto">
 
+        <p class="mt-8">The first step in defining Awaven as a brand, was to develop its visual identity. Awaven is bold but modern, brave but compassionate.</p>
+        <img src="../img/awaven_2.png" class="w-full sm:w-3/4 mt-8 mx-auto">
+        
+        <!-- <img src="../img/awaven_square.png" class="w-full max-w-md shadow-xl sm:w-3/4 mt-8 mx-auto"> -->
+        <p class="mt-8">Awaven's website can be found online. Currently, Awaven is developing an app where their clients have access to a system to grow and create the life they trully want to live.</p>
         <img src="../img/awaven_website.png" class="w-full shadow-xl sm:w-3/4 mt-8 mx-auto">
-
-        <p class="mt-8">The first step in defining Awaven as a brand, was to develop its visual identity.</p>
-        <img src="../img/awaven_square.png" class="w-full max-w-md shadow-xl sm:w-3/4 mt-8 mx-auto">
-        <p class="mt-4"></p>
 
         <!-- <hr class="mt-12"> -->
         <span class="bg-gray-300 mt-12 h-8 sm:h-14 py-4 block mx-auto" style="width: 2px;"></span>
