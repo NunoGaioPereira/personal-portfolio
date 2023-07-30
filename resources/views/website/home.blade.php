@@ -171,17 +171,19 @@
             <h2 class="font-semibold text-4xl">Projects</h2>
             <div class="py-8">
                 <div class="grid grid-cols-2">
-                    <div class="col-span-1">
-                        <div class="relative group">
-                            <a href="/projects/nora">
-                                <img src="./img/nora_square.png" alt="" class="w-full relative" style="z-index: 1">
-                                <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-opacity-60 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1; background-color: #af9d71bb;">
-                                    <div>
-                                        <p class="text-2xl">Nora</p>
-                                        <p class="text-sm">Visual Identity</p>
+                    <div class="work web">
+                        <div class="col-span-1">
+                            <div class="relative group">
+                                <a href="/projects/cordeiro-ferreira">
+                                    <img src="./img/cordeiro_ferreira_square.png" alt="" class="w-full relative" style="z-index: 1">
+                                    <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-gray-200 bg-opacity-60 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1; background-color: #aaaaaabb;">
+                                        <div>
+                                            <p style="text-shadow: 1px 1px #aaa;">Cordeiro Ferreira</p>
+                                            <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Identity and Web Design</p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="work branding design">
@@ -214,7 +216,33 @@
                             </div>
                         </div>
                     </div>
-                    <div class="work branding design">
+                    <div class="col-span-1">
+                        <div class="relative group">
+                            <a href="/projects/ukmr">
+                                <img src="./img/ukmr_square.png" alt="" class="w-full relative" style="z-index: 1">
+                                <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-gray-400 bg-opacity-70 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1">
+                                    <div>
+                                        <p style="text-shadow: 1px 1px #aaa;">UK Manufacturing Review Website</p>
+                                        <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Wordpress Development and Content Creation</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-span-1">
+                        <div class="relative group">
+                            <a href="/projects/nora">
+                                <img src="./img/nora_square.png" alt="" class="w-full relative" style="z-index: 1">
+                                <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-opacity-60 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1; background-color: #af9d71bb;">
+                                    <div>
+                                        <p class="text-2xl">Nora</p>
+                                        <p class="text-sm">Visual Identity</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="work branding design">
                         <div class="col-span-1">
                             <div class="relative group">
                                 <a href="/projects/caucau">
@@ -228,7 +256,7 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="work web">
                         <div class="col-span-1">
                             <div class="relative group">
@@ -283,7 +311,7 @@
                             </a>
                         </div>
                     </div> -->
-                    <div class="col-span-1">
+                    <!-- <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/t-rok">
                                 <img src="./img/trok_square.png" alt="" class="w-full relative" style="z-index: 1">
@@ -295,7 +323,7 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/impact-uk">
@@ -336,7 +364,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-span-1">
+                    <!-- <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/breathe">
                                 <img src="./img/breathe1.png" alt="" class="w-full relative" style="z-index: 1">
@@ -348,20 +376,7 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <div class="col-span-1">
-                        <div class="relative group">
-                            <a href="/projects/ukmr">
-                                <img src="./img/ukmr_square.png" alt="" class="w-full relative" style="z-index: 1">
-                                <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-gray-400 bg-opacity-70 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1">
-                                    <div>
-                                        <p style="text-shadow: 1px 1px #aaa;">UK Manufacturing Review Website</p>
-                                        <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Wordpress Development and Content Creation</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+                    </div> -->
                     <div class="work web">
                         <div class="col-span-1">
                             <div class="relative group">

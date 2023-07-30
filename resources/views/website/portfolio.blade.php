@@ -23,6 +23,36 @@
 						<li class="inline-block font-semibold mx-6 cursor-pointer hover:text-gray-800 text-gray-400">Branding</li>
 					</ul> -->
             <div class="grid grid-cols-2 pt-8">
+                <div class="work web">
+                    <div class="col-span-1">
+                        <div class="relative group">
+                            <a href="/projects/cordeiro-ferreira">
+                                <img src="./img/cordeiro_ferreira_square.png" alt="" class="w-full relative" style="z-index: 1">
+                                <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-gray-200 bg-opacity-60 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1; background-color: #aaaaaabb;">
+                                    <div>
+                                        <p style="text-shadow: 1px 1px #aaa;">Cordeiro Ferreira</p>
+                                        <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Identity and Web Design</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work branding design">
+                    <div class="col-span-1">
+                        <div class="relative group">
+                            <a href="/projects/awaven">
+                                <img src="./img/awaven_square.png" alt="" class="w-full relative" style="z-index: 1">
+                                <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-gray-200 bg-opacity-60 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1; background-color: #aaaaaabb;">
+                                    <div>
+                                        <p style="text-shadow: 1px 1px #aaa;">Awaven</p>
+                                        <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Design and Development</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-span-1">
                     <div class="relative group">
                         <a href="/projects/nora">
@@ -60,21 +90,6 @@
                                     <div>
                                         <p class="text-2xl">Flama</p>
                                         <p class="text-sm">Visual Identity</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="work branding design">
-                    <div class="col-span-1">
-                        <div class="relative group">
-                            <a href="/projects/awaven">
-                                <img src="./img/awaven_square.png" alt="" class="w-full relative" style="z-index: 1">
-                                <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-gray-200 bg-opacity-60 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1; background-color: #aaaaaabb;">
-                                    <div>
-                                        <p style="text-shadow: 1px 1px #aaa;">Awaven</p>
-                                        <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Design and Development</p>
                                     </div>
                                 </div>
                             </a>
