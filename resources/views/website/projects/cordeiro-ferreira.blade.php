@@ -7,7 +7,7 @@
     <div class="min-h-screen w-full flex items-center justify-center" style="background: url('../img/cordeiro_ferreira_banner.png') no-repeat; background-size: cover; background-position: center 40%">
         <div class="bg-white sm:max-w-3xl w-xl px-8 sm:px-16 py-12 sm:py-16 mt-36 bg-opacity-90 mx-auto text-center z-10">
             <div>
-                <p class="uppercase font-semibold text-sm mb-2">Visual Identidy</p>
+                <p class="uppercase font-semibold text-sm mb-2">Visual Identity</p>
                 <h2 class="font-bold text-xl sm:text-4xl pb-4">Cordeiro Ferreira</h2>
                 <span class="bg-gray-300 h-8 sm:h-14 py-4 block mx-auto" style="width: 2px;"></span>
                 <p class="text-sm text-gray-700 font-semibold pt-4">July 2023</p>

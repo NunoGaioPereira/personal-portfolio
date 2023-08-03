@@ -29,7 +29,7 @@
 		<section class="max-w-5xl mx-auto px-8 pb-36 pt-16">
 			<div>
 				<h2 class="font-semibold text-3xl">Impact UK</h2>
-				<p class="text-gray-400 font-medium text-xl">Visual Identidy</p>
+				<p class="text-gray-400 font-medium text-xl">Visual Identity</p>
 				<p class="mt-4">IMPACT UK aims to bridge the gap bewteen universities and companies by a connection bewteen academia and industry. Through collaborations between academic researchers and industrial partners, IMPACT UK expands its engagements database with the objective of spreading the awareness of impactful academic and industrial projects.
 				Furthermore, IMPACT provides the opportunity or Universities, Students and Companies to connect and network.</p>
 
