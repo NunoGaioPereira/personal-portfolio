@@ -38,7 +38,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="work branding design">
+                <div class="work web branding design">
                     <div class="col-span-1">
                         <div class="relative group">
                             <a href="/projects/awaven">
@@ -53,19 +53,36 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-span-1">
-                    <div class="relative group">
-                        <a href="/projects/nora">
-                            <img src="./img/nora_square.png" alt="" class="w-full relative" style="z-index: 1">
-                            <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-opacity-60 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1; background-color: #af9d71bb;">
-                                <div>
-                                    <p class="text-2xl">Nora</p>
-                                    <p class="text-sm">Visual Identity</p>
+                <div class="work branding design">
+                    <div class="col-span-1">
+                        <div class="relative group">
+                            <a href="/projects/nora">
+                                <img src="./img/nora_square.png" alt="" class="w-full relative" style="z-index: 1">
+                                <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-opacity-60 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1; background-color: #af9d71bb;">
+                                    <div>
+                                        <p class="text-2xl">Nora</p>
+                                        <p class="text-sm">Visual Identity</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
                 </div>
+                <div class="work branding design">
+                        <div class="col-span-1">
+                            <div class="relative group">
+                                <a href="/projects/vo-chica">
+                                    <img src="./img/vo_chica_square.png" alt="" class="w-full relative" style="z-index: 1">
+                                    <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-gray-200 bg-opacity-60 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1; background-color: #aaaaaabb;">
+                                        <div>
+                                            <p style="text-shadow: 1px 1px #aaa;">Vó Chica</p>
+                                            <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Branding and Packaging Design</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 <div class="work branding design">
                     <div class="col-span-1">
                         <div class="relative group">
@@ -111,17 +128,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-span-1">
-                    <div class="relative group">
-                        <a href="/projects/t-rok">
-                            <img src="./img/trok_square.png" alt="" class="w-full relative" style="z-index: 1">
-                            <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-gray-400 bg-opacity-70 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1">
-                                <div>
-                                    <p style="text-shadow: 1px 1px #aaa;">T-Rok</p>
-                                    <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Logo Design</p>
+                <div class="work branding">
+                    <div class="col-span-1">
+                        <div class="relative group">
+                            <a href="/projects/t-rok">
+                                <img src="./img/trok_square.png" alt="" class="w-full relative" style="z-index: 1">
+                                <div class="absolute w-full h-full justify-center text-center flex items-center bottom-0 left-0 text-xl px-4 py-2 bg-gray-400 bg-opacity-70 from-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 w-full text-white font-semibold" style="z-index: 1">
+                                    <div>
+                                        <p style="text-shadow: 1px 1px #aaa;">T-Rok</p>
+                                        <p style="text-shadow: 1px 1px #aaa;" class="text-sm">Logo Design</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="work web design">

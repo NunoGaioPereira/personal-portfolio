@@ -4,7 +4,7 @@
 
 @section('content')
 <section>
-    <div class="min-h-screen w-full flex items-center justify-center" style="background: url('../img/flama_banner.png') no-repeat; background-size: cover; background-position: center 40%">
+    <div class="min-h-screen w-full flex items-center justify-center" style="background: url('../img/vo_chica_banner.png') no-repeat; background-size: cover; background-position: center 40%">
         <div class="bg-white sm:max-w-3xl w-xl px-8 sm:px-16 py-12 sm:py-16 mt-36 bg-opacity-90 mx-auto text-center z-10">
             <div>
                 <p class="uppercase font-semibold text-sm mb-2">Visual Identity and Packaging Design</p>
