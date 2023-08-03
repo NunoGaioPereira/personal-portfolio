@@ -30,7 +30,7 @@
     <div>
         <h2 class="font-semibold text-3xl">Nora</h2>
         <p class="text-gray-400 font-medium text-xl">Visual Identity</p>
-        <p class="mt-4">Nora is a skincare brand that emphasizes on creating clean, organic, cruelty-free products.</p>
+        <p class="mt-4">Nora is a skincare brand that emphasizes on creating clean, organic, cruelty-free products for the skin.</p>
 
         <!-- <div class="mt-8">
             <a href="https://www.andregaiopereira.com" target="_blank" class="inline-block text-sm hover:bg-gray-800 border-2 border-gray-800 transition duration-300 px-8 py-3 text-gray-800 hover:text-white">Visit website</a>
@@ -41,6 +41,9 @@
         
         <br><br>
         <p class="mt-4">The design was meant to capture the natural tone of the brand, while retaining a sense of luxury and endulgement.</p>
+        <img src="../img/nora_packaging.png" class="w-full sm:w-3/4 mt-8 mx-auto">
+
+        <p class="mt-4">The packaging of Nora had a big emphasis on having a clean and minimalist design. This goes hand to hand on the "come as you are" concept of the brand.</p>
         <img src="../img/nora_2.png" class="w-full sm:w-3/4 mt-8 mx-auto">
 
         <br><br>

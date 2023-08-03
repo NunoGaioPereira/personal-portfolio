@@ -37,10 +37,11 @@
         </div> -->
 
         <img src="../img/flama_main.png" class="w-full sm:w-3/4 mt-8 mx-auto">
+        <p class="mt-4">The design was meant to capture the natural tone of the brand, while retaining a sense of luxury and endulgement.</p>
+        <img src="../img/flama_packaging.png" class="w-full sm:w-3/4 mt-8 mx-auto">
 
         
-        <br><br>
-        <p class="mt-4">The design was meant to capture the natural tone of the brand, while retaining a sense of luxury and endulgement.</p>
+        <p class="mt-4">Part of the assignment was to develop Flama's packaging set for their collection of candles.</p>
         <img src="../img/flama_2.png" class="w-full sm:w-3/4 mt-8 mx-auto">
 
         <!-- <hr class="mt-12"> -->
