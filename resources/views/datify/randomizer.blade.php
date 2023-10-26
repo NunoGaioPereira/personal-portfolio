@@ -438,6 +438,21 @@
             padding: 12px 56px;
             cursor: pointer;
             border-radius: 4px;
+
+            box-shadow: 0px 8px 0px 0px #DE5330;
+        }
+
+        .main-btn:active {
+            transform: translateY(5px);
+            box-shadow: none !important;
+        }
+
+        .main-btn.disabled {
+            background: #EFF1F2 !important;
+            box-shadow: 0px 8px 0px 0px rgba(185, 195, 213, 1) !important;
+            color: #333333;
+            cursor: not-allowed;
+            pointer-events: none;
         }
 
         .main-letter {
@@ -744,7 +759,7 @@
                 </div>
             </div>
             <div class="btn-container">
-                <button class="main-btn" style="z-index: 99999;" onClick="setPause(true)">Nova Letra</button>
+                <button class="main-btn" id="main-btn" style="z-index: 99999;" onClick="setPause(true)">Nova Letra</button>
 
 
             </div>
@@ -769,6 +784,7 @@
 
 
         var letterDisplay = document.getElementById("letter");
+        var mainBtn = document.getElementById("main-btn");
 
         // Array of letters
         var letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
@@ -778,6 +794,7 @@
         var counts = 0;
 
         function setPause() {
+            mainBtn.classList.add('disabled');
             isPaused = !isPaused;
             counts = Math.floor(Math.random() * (100 - 20 + 1) + 20);
             console.log(counts);
@@ -797,6 +814,7 @@
 
                 if (counts <= 0) {
                     isPaused = false;
+                    mainBtn.classList.remove('disabled');
 
                     console.log("he");
 
