@@ -64,3 +64,24 @@ Route::get('/projects/{project}', function ($project) {
 
 Route::post('contact', [WebsiteController::class, 'send'])->name('contact.send');
 
+
+
+
+
+// middleware('datify_auth')
+
+Route::group(
+    [
+        'prefix'     => 'datify',
+        'middleware' => []
+    ],
+    function() {
+        // Route::get('/', function () {
+        //     return view('datify.randomizer');
+        // });
+
+        Route::get('/randomizer', function () {
+            return view('datify.randomizer');
+        });
+    }
+);
